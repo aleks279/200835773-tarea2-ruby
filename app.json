@@ -1,0 +1,8 @@
+{
+  "name": "Tarea 2",
+  "description": "Tarea 2",
+  "image": "heroku/ruby",
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
