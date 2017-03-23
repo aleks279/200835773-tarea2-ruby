@@ -1,18 +1,24 @@
+PATH
+  remote: ..
+  specs:
+    rubydoop (2.0.0.pre1-java)
+      puck (~> 1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
-    jruby-jars (9.1.8.0)
+    jruby-jars (9.0.5.0)
+    puck (1.2.5-java)
     rake (12.0.0)
-    rubydoop (1.2.1)
 
 PLATFORMS
   java
   ruby
 
 DEPENDENCIES
-  jruby-jars
+  jruby-jars (= 9.0.5.0)
   rake
-  rubydoop
+  rubydoop!
 
 BUNDLED WITH
    1.14.6

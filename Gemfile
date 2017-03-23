@@ -1,8 +1,8 @@
 source 'https://rubygems.org/'
 
-gem 'rubydoop'
+gem 'rubydoop', path: '../rubydoop/..'
 
 group :development do
   gem 'rake'
-  gem 'jruby-jars'
+  gem 'jruby-jars', "= #{JRUBY_VERSION}"
 end
